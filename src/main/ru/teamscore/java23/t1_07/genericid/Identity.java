@@ -1,7 +1,7 @@
 package ru.teamscore.java23.t1_07.genericid;
 
 public class Identity<TId> {
-    private TId id;
+    private final TId id;
 
     public Identity(TId id) {
         this.id = id;
